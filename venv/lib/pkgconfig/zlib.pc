@@ -1,0 +1,13 @@
+prefix=/Users/hlk/Desktop/Projects/ResuMaster/venv
+exec_prefix=/Users/hlk/Desktop/Projects/ResuMaster/venv
+libdir=/Users/hlk/Desktop/Projects/ResuMaster/venv/lib
+sharedlibdir=/Users/hlk/Desktop/Projects/ResuMaster/venv/lib
+includedir=/Users/hlk/Desktop/Projects/ResuMaster/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
